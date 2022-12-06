@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.supergianlu.controlli">
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <!--TODO
+        Quando clicco su un modulo devo passare subito a una ricerca dell'espositore per ottenere così i suoi dati,
+        senza riscriverli ogni maledetta volta.
+        Poi fare un controllo del telefono che abbia più di un tot caratteri, idem per l'indirizzo.
+        A livello di webservice quando ottengo il get modulo di L Generico, mi prendo (errore) l'ultimo modulo di L-Ultimo giorno-->
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.LoadingActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".activity.LoginActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.segnalazioni.SignalationsActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.servizi.ServicesActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.servizi.moduli.ModN2Activity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.servizi.moduli.ModKActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.servizi.moduli.ModLActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.ChooseControlActivity"
+        android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.ChooseServiceActivity"
+            android:screenOrientation="portrait"/>
+
+        <activity android:name=".activity.servizi.SignatureActivity"
+            android:screenOrientation="landscape"/>
+
+        <activity android:name=".activity.servizi.SearchListActivity"
+            android:screenOrientation="portrait"/>
+
+    </application>
+
+</manifest>

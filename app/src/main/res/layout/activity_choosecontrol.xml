@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:gravity="center_horizontal"
+        android:text="SEGLI LA TIPOLOGIA"
+        android:textAlignment="center"
+        android:textColor="#5b5b5b"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/controlLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/signalationsButton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:background="@color/colorPrimary"
+            android:text="Segnalazioni"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/servicesButton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="48dp"
+            android:background="@color/colorPrimary"
+            android:text="Moduli"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

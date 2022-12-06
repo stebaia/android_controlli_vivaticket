@@ -1,0 +1,1607 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.servizi.moduli.ModKActivity"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include layout="@layout/layout_userdata" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center_horizontal"
+            android:text="@string/order_form"
+            android:textAlignment="center"
+            android:textColor="#5b5b5b"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/message1_k"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" />
+
+                <TextView
+                    android:id="@+id/message2_k"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/message3_k"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:gravity="center_horizontal"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/message5_k"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center_horizontal"
+                android:textAlignment="center"
+                android:textColor="#5b5b5b"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/layoutOrderModK10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+
+                    <EditText
+                        android:id="@+id/meterB10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m × " />
+
+                    <EditText
+                        android:id="@+id/meterH10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m = " />
+
+                    <TextView
+                        android:id="@+id/meterTot10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m²" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/meterTotCopy10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" × " />
+
+                    <EditText
+                        android:id="@+id/faces10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:digits="0123456789"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/faces" />
+
+                    <TextView
+                        android:id="@+id/mqTot10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m² tot" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/mqTotCopy10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" × " />
+
+                    <TextView
+                        android:id="@+id/mqAmount10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" €/m² = " />
+
+                    <TextView
+                        android:id="@+id/totalAmount10_k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tot_euros" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutOrderModK20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal">
+
+                    <EditText
+                        android:id="@+id/meterB20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m × " />
+
+                    <EditText
+                        android:id="@+id/meterH20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m = " />
+
+                    <TextView
+                        android:id="@+id/meterTot20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m²" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/meterTotCopy20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" × " />
+
+                    <EditText
+                        android:id="@+id/faces20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:digits="0123456789"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/faces" />
+
+                    <TextView
+                        android:id="@+id/mqTot20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m² tot" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/mqTotCopy20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" × " />
+
+                    <TextView
+                        android:id="@+id/mqAmount20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" €/m² = " />
+
+                    <TextView
+                        android:id="@+id/totalAmount20_k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tot_euros" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutOrderModK30"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <EditText
+                        android:id="@+id/meterB30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m × " />
+
+                    <EditText
+                        android:id="@+id/meterH30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m = " />
+
+                    <TextView
+                        android:id="@+id/meterTot30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m²" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/meterTotCopy30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" × " />
+
+                    <EditText
+                        android:id="@+id/faces30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:digits="0123456789"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/faces" />
+
+                    <TextView
+                        android:id="@+id/mqTot30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m² tot" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/mqTotCopy30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" × " />
+
+                    <TextView
+                        android:id="@+id/mqAmount30"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" €/m² = " />
+
+                    <TextView
+                        android:id="@+id/totalAmount30_k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tot_euros" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutOrderModK40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <EditText
+                        android:id="@+id/meterB40"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m × " />
+
+                    <EditText
+                        android:id="@+id/meterH40"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m = " />
+
+                    <TextView
+                        android:id="@+id/meterTot40"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m²" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/meterTotCopy40"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" × " />
+
+                    <EditText
+                        android:id="@+id/faces40"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:digits="0123456789"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/faces" />
+
+                    <TextView
+                        android:id="@+id/mqTot40"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m² tot" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/mqTotCopy40"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" × " />
+
+                    <TextView
+                        android:id="@+id/mqAmount40"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" €/m² = " />
+
+                    <TextView
+                        android:id="@+id/totalAmount40_k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tot_euros" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutOrderModK50"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <EditText
+                        android:id="@+id/meterB50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m × " />
+
+                    <EditText
+                        android:id="@+id/meterH50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m = " />
+
+                    <TextView
+                        android:id="@+id/meterTot50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m²" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/meterTotCopy50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" × " />
+
+                    <EditText
+                        android:id="@+id/faces50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:digits="0123456789"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/faces" />
+
+                    <TextView
+                        android:id="@+id/mqTot50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m² tot" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/mqTotCopy50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" × " />
+
+                    <TextView
+                        android:id="@+id/mqAmount50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" €/m² = " />
+
+                    <TextView
+                        android:id="@+id/totalAmount50_k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tot_euros" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutOrderModK60"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <EditText
+                        android:id="@+id/meterB60"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m × " />
+
+                    <EditText
+                        android:id="@+id/meterH60"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m = " />
+
+                    <TextView
+                        android:id="@+id/meterTot60"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m²" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/meterTotCopy60"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" × " />
+
+                    <EditText
+                        android:id="@+id/faces60"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:digits="0123456789"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/faces" />
+
+                    <TextView
+                        android:id="@+id/mqTot60"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m² tot" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/mqTotCopy60"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" × " />
+
+                    <TextView
+                        android:id="@+id/mqAmount60"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" €/m² = " />
+
+                    <TextView
+                        android:id="@+id/totalAmount60_k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tot_euros" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutOrderModK70"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <EditText
+                        android:id="@+id/meterB70"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m × " />
+
+                    <EditText
+                        android:id="@+id/meterH70"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m = " />
+
+                    <TextView
+                        android:id="@+id/meterTot70"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m²" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/meterTotCopy70"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" × " />
+
+                    <EditText
+                        android:id="@+id/faces70"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:digits="0123456789"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/faces" />
+
+                    <TextView
+                        android:id="@+id/mqTot70"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m² tot" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/mqTotCopy70"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" × " />
+
+                    <TextView
+                        android:id="@+id/mqAmount70"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" €/m² = " />
+
+                    <TextView
+                        android:id="@+id/totalAmount70_k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tot_euros" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutOrderModK80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <EditText
+                        android:id="@+id/meterB80"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m × " />
+
+                    <EditText
+                        android:id="@+id/meterH80"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m = " />
+
+                    <TextView
+                        android:id="@+id/meterTot80"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m²" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/meterTotCopy80"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" × " />
+
+                    <EditText
+                        android:id="@+id/faces80"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:digits="0123456789"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/faces" />
+
+                    <TextView
+                        android:id="@+id/mqTot80"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m² tot" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/mqTotCopy80"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" × " />
+
+                    <TextView
+                        android:id="@+id/mqAmount80"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" €/m² = " />
+
+                    <TextView
+                        android:id="@+id/totalAmount80_k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tot_euros" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutOrderModK90"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <EditText
+                        android:id="@+id/meterB90"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m × " />
+
+                    <EditText
+                        android:id="@+id/meterH90"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m = " />
+
+                    <TextView
+                        android:id="@+id/meterTot90"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m²" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/meterTotCopy90"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" × " />
+
+                    <EditText
+                        android:id="@+id/faces90"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:digits="0123456789"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/faces" />
+
+                    <TextView
+                        android:id="@+id/mqTot90"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m² tot" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/mqTotCopy90"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" × " />
+
+                    <TextView
+                        android:id="@+id/mqAmount90"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" €/m² = " />
+
+                    <TextView
+                        android:id="@+id/totalAmount90_k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tot_euros" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutOrderModK100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <EditText
+                        android:id="@+id/meterB100"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m × " />
+
+                    <EditText
+                        android:id="@+id/meterH100"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m = " />
+
+                    <TextView
+                        android:id="@+id/meterTot100"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m²" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/meterTotCopy100"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" × " />
+
+                    <EditText
+                        android:id="@+id/faces100"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="3"
+                        android:digits="0123456789"
+                        android:gravity="center_horizontal"
+                        android:maxLength="8"
+                        android:inputType="numberDecimal" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/faces" />
+
+                    <TextView
+                        android:id="@+id/mqTot100"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" m² tot" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/mqTotCopy100"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" × " />
+
+                    <TextView
+                        android:id="@+id/mqAmount100"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" €/m² = " />
+
+                    <TextView
+                        android:id="@+id/totalAmount100_k"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="0,00"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tot_euros" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/addLineButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/ic_add_black_24dp" />
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center_horizontal"
+            android:text="@string/total_import"
+            android:textAlignment="center"
+            android:textColor="#5b5b5b"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/textViewTotalAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="€ 0,00"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/message4_k"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:gravity="center_horizontal"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/note"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/notes"
+                android:inputType="textMultiLine"
+                android:lines="3"
+                android:maxLength="100" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/confirmButton"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="32dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/sign_confirm" />
+
+
+    </LinearLayout>
+
+</ScrollView>

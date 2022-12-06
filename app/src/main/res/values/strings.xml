@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Controlli</string>
+    <string name="error_getmanifestations">Nessuna manifestazione disponibile.</string>
+    <string name="error_getdata">Dispositivo non connesso alla rete.\nImpossibile ottenere i dati.</string>
+    <string name="error_getcomuni">Dispositivo non connesso alla rete.\nImpossibile ottenere i comuni.</string>
+    <string name="error_generic">Dispositivo non connesso alla rete.\nConnettersi e riprovare.</string>
+
+    <string name="load_ok">Form successfully sent!</string>
+    <string name="loading">Loading…</string>
+    <string name="getting_data">I\'m getting data…</string>
+    <string name="fields_error_all">Fill in all mandatory fields of the stand fitter! (*)</string>
+    <string name="fields_error_esp">Fill in all mandatory fields of the exhibitor! (*)</string>
+    <string name="amount_error">The total import is equal to 0!</string>
+    <string name="do_signature">Put the signature.</string>
+    <string name="mod_k">Publicity signage on stand</string>
+    <string name="mod_l_generico">Extension of stand set-up\n(Generic)</string>
+    <string name="mod_l_ultimogiorno">Extension of stand set-up\n(Last day)</string>
+    <string name="mod_n2">Waste disposal</string>
+
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="company_name">*Company name:</string>
+    <string name="address">Address:</string>
+    <string name="post_code">Post code:</string>
+    <string name="municipality">Municipality:</string>
+    <string name="select_municipality">Select a municipality</string>
+    <string name="town">Town:</string>
+    <string name="select_town">Select a town</string>
+    <string name="country">Country:</string>
+    <string name="tel">Telephone:</string>
+    <string name="fax">Fax:</string>
+    <string name="vat">VAT reg. N°:</string>
+    <string name="email">Email:</string>
+    <string name="stand">*Stand:</string>
+    <string name="pavilion">*Pavilion:</string>
+    <string name="esp">Exhibitor</string>
+    <string name="all">Stand Fitter</string>
+    <string name="company">Type of company</string>
+    <string name="order_form">Order form</string>
+    <string name="total_import">Total import\nVAT excluded</string>
+    <string name="sign_confirm">Sign and confirm</string>
+    <string name="confirm">Confirm</string>
+    <string name="delete">Delete</string>
+    <string name="sign_here">Sign here</string>
+    <string name="notes">Notes</string>
+    <string name="name">Name:</string>
+    <string name="surname">Surname:</string>
+    <string name="role">Role in the company:</string>
+    <string name="quantity">Quantity</string>
+    <string name="unit_cost">Unit cost\nVAT excluded</string>
+    <string name="date">Date</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="tot_hours">Tot. hours&#160;</string>
+    <string name="hour_amount">&#160;× Hourly Cost VAT excluded&#160;</string>
+    <string name="change_lang">Click on the flag to change language</string>
+    <string name="undersigned">The undersigned:&#160;</string>
+    <string name="refuse_service">REJECT the service and guarantee autonomous restoration</string>
+    <string name="accept_service">ACCEPT the service and DON\'T guarantee autonomous restoration</string>
+    <string name="faces">&#160;faces =&#160;</string>
+    <string name="tot_euros">&#160;€ Tot VAT excluded</string>
+    <string name="extend_time">Extend time</string>
+    <string name="form_not_completed_title">Do you want to upload an incomplete form?</string>
+    <string name="form_not_completed_title_no_sign">Do you want to upload an incomplete form and without signature?</string>
+    <string name="form_not_completed_message_n2">The form must still be signed and filled in, in the specified cases, at a later time.\nFurthermore, the undersigned states that:&#160;</string>
+    <string name="form_not_completed_message_k">You have omitted some mandatory fields, in this way only the data relating to the amount, company name, stand and pavilion will be loaded.\nTo complete and sign the form, you will need to search for it using the following company name:&#160;</string>
+    <string name="photos_error">Take some pictures to show that the data entered is correct.</string>
+    <string name="insert_company_name">Insert company name, stand and pavilion!</string>
+    <string name="quit">Are you sure you want to quit?</string>
+    <string name="data_will_be_deleted">The data entered in this form will be deleted.</string>
+    <string name="confirm_sign_question">Do you confirm?</string>
+
+</resources>

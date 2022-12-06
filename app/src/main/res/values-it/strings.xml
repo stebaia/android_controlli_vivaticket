@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">Controlli</string>
+    <string name="load_ok">Modulo inviato con successo!</string>
+    <string name="loading">Caricamento in corso…</string>
+    <string name="getting_data">Ottengo i dati…</string>
+    <string name="fields_error_all">Compilare tutti i campi obbligatori dell\'allestitore! (*)</string>
+    <string name="fields_error_esp">Compilare tutti i campi obbligatori dell\'espositre! (*)</string>
+    <string name="amount_error">L\'importo totale è uguale a 0!</string>
+    <string name="do_signature">Apporre la firma.</string>
+    <string name="mod_k">Insegne pubblicitarie nello stand</string>
+    <string name="mod_l_generico">Prolungamento orari di allestimento\n(Generico)</string>
+    <string name="mod_l_ultimogiorno">Prolungamento orari di allestimento\n(Ultimo giorno)</string>
+    <string name="mod_n2">Smaltimento rifiuti</string>
+
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="company_name">*Ragione sociale:</string>
+    <string name="address">Indirizzo:</string>
+    <string name="post_code">CAP:</string>
+    <string name="municipality">Comune:</string>
+    <string name="select_municipality">Seleziona un comune</string>
+    <string name="town">Provincia:</string>
+    <string name="select_town">Seleziona una provincia</string>
+    <string name="country">Nazione:</string>
+    <string name="tel">Telefono:</string>
+    <string name="fax">Fax:</string>
+    <string name="vat">Part. IVA/Cod. Fiscale:</string>
+    <string name="email">Email:</string>
+    <string name="stand">*Stand:</string>
+    <string name="pavilion">*Padiglione:</string>
+    <string name="esp">Espositore</string>
+    <string name="all">Allestitore</string>
+    <string name="company">Tipologia di ditta</string>
+    <string name="order_form">Modulo d\'ordine</string>
+    <string name="total_import">Importo totale\nIVA esclusa</string>
+    <string name="sign_confirm">Firma e conferma</string>
+    <string name="confirm">Conferma</string>
+    <string name="delete">Cancella</string>
+    <string name="sign_here">Firma qui sotto</string>
+    <string name="notes">Note</string>
+    <string name="name">Nome:</string>
+    <string name="role">Ruolo in azienda:</string>
+    <string name="surname">Cognome:</string>
+    <string name="quantity">Quantità</string>
+    <string name="unit_cost">Costo unitario\nIVA esclusa</string>
+    <string name="date">Data</string>
+    <string name="from">Dalle</string>
+    <string name="to">Alle</string>
+    <string name="tot_hours">Totale ore&#160;</string>
+    <string name="hour_amount">&#160;× Costo Orario IVA esclusa&#160;</string>
+    <string name="change_lang">Clicca sulla bandiera per cambiare lingua</string>
+    <string name="undersigned">Il sottoscritto:&#160;</string>
+    <string name="refuse_service">RIFIUTA il servizio e garantisce il ripristino in autonomia</string>
+    <string name="accept_service">ACCETTA il servizio e NON garantisce il ripristino in autonomia</string>
+    <string name="faces">&#160;facce =&#160;</string>
+    <string name="tot_euros">&#160;€ Totali IVA esclusa</string>
+    <string name="extend_time">Prolunga orario</string>
+    <string name="form_not_completed_title">Vuoi caricare il modulo incompleto?</string>
+    <string name="form_not_completed_title_no_sign">Vuoi caricare il modulo incompleto e non firmato?</string>
+    <string name="form_not_completed_message_n2">Il modulo dovrà comunque essere firmato e compilato, nei casi specificati, in un secondo momento.\nInoltre il sottoscritto afferma che:&#160;</string>
+    <string name="form_not_completed_message_k">Hai tralasciato qualche campo obbligatorio, in questo modo verranno caricati solo i dati relativi all\'importo, ragione sociale, stand e padiglione.\nPer completare e far firmare il modulo dovrai poi ricercarlo tramite la seguente ragione sociale:&#160;</string>
+    <string name="photos_error">Fai qualche foto per dimostrare che i dati inseriti siano corretti.</string>
+    <string name="insert_company_name">Inserisci ragione sociale, stand e padiglione!</string>
+    <string name="quit">Sei sicuro di voler uscire?</string>
+    <string name="data_will_be_deleted">I dati inseriti nel presente modulo verranno cancellati.</string>
+    <string name="confirm_sign_question">Confermi l\'invio?</string>
+
+
+
+</resources>

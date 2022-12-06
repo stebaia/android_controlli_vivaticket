@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Vai alla home page"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Vai in alto"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Altre opzioni"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fine"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Visualizza tutte"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Scegli un\'applicazione"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"ALT +"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"CTRL +"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"CANC"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"INVIO"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"FUNZIONE +"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"META +"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"MAIUSC +"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"barra spaziatrice"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"SYM +"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"MENU +"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Cerca…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Cancella query"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Query di ricerca"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Invia query"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Ricerca vocale"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Condividi con"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"Condividi tramite <ns1:g id="APPLICATION_NAME">%s</ns1:g>"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Comprimi"</string>
+    <string name="accept_service">ACCETTA il servizio e NON garantisce il ripristino in autonomia</string>
+    <string name="address">*Indirizzo:</string>
+    <string name="all">Allestitore</string>
+    <string name="amount_error">L\'importo totale è uguale a 0!</string>
+    <string name="app_name">Controlli</string>
+    <string name="change_lang">Clicca sulla bandiera per cambiare lingua</string>
+    <string name="company">Tipologia di ditta</string>
+    <string name="company_name">*Ragione sociale:</string>
+    <string name="confirm">Conferma</string>
+    <string name="confirm_sign_question">Confermi l\'invio?</string>
+    <string name="country">*Nazione:</string>
+    <string name="data_will_be_deleted">I dati inseriti nel presente modulo verranno cancellati.</string>
+    <string name="date">Data</string>
+    <string name="delete">Cancella</string>
+    <string name="do_signature">Apporre la firma.</string>
+    <string name="email">Email:</string>
+    <string name="esp">Espositore</string>
+    <string name="extend_time">Prolunga orario</string>
+    <string name="faces"> facce = </string>
+    <string name="fax">Fax:</string>
+    <string name="fields_error_all">Compilare tutti i campi obbligatori dell\'allestitore! (*)</string>
+    <string name="fields_error_esp">Compilare tutti i campi obbligatori dell\'espositre! (*)</string>
+    <string name="form_not_completed_message_k">Hai tralasciato qualche campo obbligatorio, in questo modo verranno caricati solo i dati relativi all\'importo, ragione sociale, stand e padiglione.\nPer completare e far firmare il modulo dovrai poi ricercarlo tramite la seguente ragione sociale: </string>
+    <string name="form_not_completed_message_n2">Il modulo dovrà comunque essere firmato e compilato, nei casi specificati, in un secondo momento.\nInoltre il sottoscritto afferma che: </string>
+    <string name="form_not_completed_title">Vuoi caricare il modulo incompleto?</string>
+    <string name="form_not_completed_title_no_sign">Vuoi caricare il modulo incompleto e non firmato?</string>
+    <string name="from">Dalle</string>
+    <string name="getting_data">Ottengo i dati…</string>
+    <string name="hour_amount"> × Costo Orario IVA esclusa </string>
+    <string name="insert_company_name">Inserisci ragione sociale, stand e padiglione!</string>
+    <string name="load_ok">Modulo inviato con successo!</string>
+    <string name="loading">Caricamento in corso…</string>
+    <string name="mod_k">Insegne pubblicitarie nello stand</string>
+    <string name="mod_l_generico">Prolungamento orari di allestimento\n(Generico)</string>
+    <string name="mod_l_ultimogiorno">Prolungamento orari di allestimento\n(Ultimo giorno)</string>
+    <string name="mod_n2">Smaltimento rifiuti</string>
+    <string name="municipality">*Comune:</string>
+    <string name="name">*Nome:</string>
+    <string name="no">No</string>
+    <string name="notes">Note</string>
+    <string name="order_form">Modulo d\'ordine</string>
+    <string name="pavilion">*Padiglione:</string>
+    <string name="photos_error">Fai qualche foto per dimostrare che i dati inseriti siano corretti.</string>
+    <string name="post_code">CAP:</string>
+    <string name="quantity">Quantità</string>
+    <string name="quit">Sei sicuro di voler uscire?</string>
+    <string name="refuse_service">RIFIUTA il servizio e garantisce il ripristino in autonomia</string>
+    <string name="role">Ruolo in azienda:</string>
+    <string msgid="146198913615257606" name="search_menu_title">"Ricerca"</string>
+    <string name="select_municipality">Seleziona un comune</string>
+    <string name="select_town">Seleziona una provincia</string>
+    <string name="sign_confirm">Firma e conferma</string>
+    <string name="sign_here">Firma qui sotto</string>
+    <string name="stand">*Stand:</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="surname">*Cognome:</string>
+    <string name="tel">*Telefono:</string>
+    <string name="to">Alle</string>
+    <string name="tot_euros"> € Totali IVA esclusa</string>
+    <string name="tot_hours">Totale ore </string>
+    <string name="total_import">Importo totale\nIVA esclusa</string>
+    <string name="town">*Provincia:</string>
+    <string name="undersigned">Il sottoscritto: </string>
+    <string name="unit_cost">Costo unitario\nIVA esclusa</string>
+    <string name="vat">Part. IVA/Cod. Fiscale:</string>
+    <string name="yes">Si</string>
+</resources>
