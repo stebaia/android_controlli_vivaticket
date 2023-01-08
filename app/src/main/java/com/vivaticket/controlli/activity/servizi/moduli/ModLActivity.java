@@ -1,4 +1,4 @@
-package com.supergianlu.controlli.activity.servizi.moduli;
+package com.vivaticket.controlli.activity.servizi.moduli;
 
 import android.content.Intent;
 import android.content.res.Resources;
@@ -11,9 +11,8 @@ import android.widget.TextView;
 import android.widget.TimePicker;
 import android.widget.Toast;
 
-import com.supergianlu.controlli.R;
-import com.supergianlu.controlli.activity.servizi.ServicesActivity;
-import com.supergianlu.controlli.activity.servizi.SignatureActivity;
+import com.vivaticket.controlli.R;
+import com.vivaticket.controlli.activity.servizi.ServicesActivity;
 
 import org.ksoap2.SoapEnvelope;
 import org.ksoap2.serialization.SoapObject;
@@ -29,13 +28,13 @@ import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.Locale;
 
-import static com.supergianlu.controlli.util.Helper.EXTRA_IDMODULO;
-import static com.supergianlu.controlli.util.Helper.L_GENERICO_CODE;
-import static com.supergianlu.controlli.util.Helper.METHOD_GETINFOL;
-import static com.supergianlu.controlli.util.Helper.NAMESPACE;
-import static com.supergianlu.controlli.util.Helper.SOAP_ACTION_GETINFOL;
-import static com.supergianlu.controlli.util.Helper.STATUS_COMPLETE;
-import static com.supergianlu.controlli.util.Helper.URL;
+import static com.vivaticket.controlli.util.Helper.EXTRA_IDMODULO;
+import static com.vivaticket.controlli.util.Helper.L_GENERICO_CODE;
+import static com.vivaticket.controlli.util.Helper.METHOD_GETINFOL;
+import static com.vivaticket.controlli.util.Helper.NAMESPACE;
+import static com.vivaticket.controlli.util.Helper.SOAP_ACTION_GETINFOL;
+import static com.vivaticket.controlli.util.Helper.STATUS_COMPLETE;
+import static com.vivaticket.controlli.util.Helper.URL;
 
 public class ModLActivity extends ServicesActivity {
 

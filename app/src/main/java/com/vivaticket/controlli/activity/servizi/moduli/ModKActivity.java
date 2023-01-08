@@ -1,7 +1,6 @@
-package com.supergianlu.controlli.activity.servizi.moduli;
+package com.vivaticket.controlli.activity.servizi.moduli;
 
 import android.app.AlertDialog;
-import android.content.Intent;
 import android.graphics.Paint;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -14,10 +13,9 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.supergianlu.controlli.R;
-import com.supergianlu.controlli.ValoriK;
-import com.supergianlu.controlli.activity.servizi.ServicesActivity;
-import com.supergianlu.controlli.activity.servizi.SignatureActivity;
+import com.vivaticket.controlli.R;
+import com.vivaticket.controlli.ValoriK;
+import com.vivaticket.controlli.activity.servizi.ServicesActivity;
 
 import org.ksoap2.SoapEnvelope;
 import org.ksoap2.serialization.SoapObject;
@@ -26,14 +24,14 @@ import org.ksoap2.transport.HttpTransportSE;
 
 import java.lang.ref.WeakReference;
 
-import static com.supergianlu.controlli.util.Helper.K_CODE;
-import static com.supergianlu.controlli.util.Helper.METHOD_GETINFOK;
-import static com.supergianlu.controlli.util.Helper.NAMESPACE;
-import static com.supergianlu.controlli.util.Helper.PREFS_IS_ITA;
-import static com.supergianlu.controlli.util.Helper.SOAP_ACTION_GETINFOK;
-import static com.supergianlu.controlli.util.Helper.STATUS_COMPLETE;
-import static com.supergianlu.controlli.util.Helper.STATUS_INCOMPLETE;
-import static com.supergianlu.controlli.util.Helper.URL;
+import static com.vivaticket.controlli.util.Helper.K_CODE;
+import static com.vivaticket.controlli.util.Helper.METHOD_GETINFOK;
+import static com.vivaticket.controlli.util.Helper.NAMESPACE;
+import static com.vivaticket.controlli.util.Helper.PREFS_IS_ITA;
+import static com.vivaticket.controlli.util.Helper.SOAP_ACTION_GETINFOK;
+import static com.vivaticket.controlli.util.Helper.STATUS_COMPLETE;
+import static com.vivaticket.controlli.util.Helper.STATUS_INCOMPLETE;
+import static com.vivaticket.controlli.util.Helper.URL;
 
 public class ModKActivity extends ServicesActivity {
 

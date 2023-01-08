@@ -1,6 +1,5 @@
-package com.supergianlu.controlli.activity;
+package com.vivaticket.controlli.activity;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Configuration;
@@ -14,10 +13,10 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.supergianlu.controlli.R;
-import com.supergianlu.controlli.activity.servizi.moduli.ModKActivity;
-import com.supergianlu.controlli.activity.servizi.moduli.ModLActivity;
-import com.supergianlu.controlli.activity.servizi.moduli.ModN2Activity;
+import com.vivaticket.controlli.R;
+import com.vivaticket.controlli.activity.servizi.moduli.ModKActivity;
+import com.vivaticket.controlli.activity.servizi.moduli.ModLActivity;
+import com.vivaticket.controlli.activity.servizi.moduli.ModN2Activity;
 
 import org.ksoap2.SoapEnvelope;
 import org.ksoap2.serialization.SoapObject;
@@ -29,21 +28,21 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import static com.supergianlu.controlli.util.Helper.EXTRA_IDMODULO;
-import static com.supergianlu.controlli.util.Helper.K_CODE;
-import static com.supergianlu.controlli.util.Helper.L_GENERICO_CODE;
-import static com.supergianlu.controlli.util.Helper.L_ULTIMOGIORNO_CODE;
-import static com.supergianlu.controlli.util.Helper.METHOD_GETMANIFESTAZIONI;
-import static com.supergianlu.controlli.util.Helper.N2_CODE;
-import static com.supergianlu.controlli.util.Helper.NAMESPACE;
-import static com.supergianlu.controlli.util.Helper.PREFS_CONTROL_CODE;
-import static com.supergianlu.controlli.util.Helper.PREFS_IS_ITA;
-import static com.supergianlu.controlli.util.Helper.PREFS_MANIFESTATION_NAME;
-import static com.supergianlu.controlli.util.Helper.PREFS_MANIFESTATION_VALUE;
-import static com.supergianlu.controlli.util.Helper.PREFS_NAME;
-import static com.supergianlu.controlli.util.Helper.SERVICES_CODE;
-import static com.supergianlu.controlli.util.Helper.SOAP_ACTION_GETMANIFESTAZIONI;
-import static com.supergianlu.controlli.util.Helper.URL;
+import static com.vivaticket.controlli.util.Helper.EXTRA_IDMODULO;
+import static com.vivaticket.controlli.util.Helper.K_CODE;
+import static com.vivaticket.controlli.util.Helper.L_GENERICO_CODE;
+import static com.vivaticket.controlli.util.Helper.L_ULTIMOGIORNO_CODE;
+import static com.vivaticket.controlli.util.Helper.METHOD_GETMANIFESTAZIONI;
+import static com.vivaticket.controlli.util.Helper.N2_CODE;
+import static com.vivaticket.controlli.util.Helper.NAMESPACE;
+import static com.vivaticket.controlli.util.Helper.PREFS_CONTROL_CODE;
+import static com.vivaticket.controlli.util.Helper.PREFS_IS_ITA;
+import static com.vivaticket.controlli.util.Helper.PREFS_MANIFESTATION_NAME;
+import static com.vivaticket.controlli.util.Helper.PREFS_MANIFESTATION_VALUE;
+import static com.vivaticket.controlli.util.Helper.PREFS_NAME;
+import static com.vivaticket.controlli.util.Helper.SERVICES_CODE;
+import static com.vivaticket.controlli.util.Helper.SOAP_ACTION_GETMANIFESTAZIONI;
+import static com.vivaticket.controlli.util.Helper.URL;
 
 public class ChooseServiceActivity extends AppCompatActivity {
 

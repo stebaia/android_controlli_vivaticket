@@ -1,4 +1,4 @@
-package com.supergianlu.controlli.activity.servizi;
+package com.vivaticket.controlli.activity.servizi;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -13,9 +13,9 @@ import android.widget.ListView;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
-import com.supergianlu.controlli.R;
-import com.supergianlu.controlli.util.MyListAdapter;
-import com.supergianlu.controlli.util.SearchElement;
+import com.vivaticket.controlli.R;
+import com.vivaticket.controlli.util.MyListAdapter;
+import com.vivaticket.controlli.util.SearchElement;
 
 import org.ksoap2.SoapEnvelope;
 import org.ksoap2.serialization.SoapObject;
@@ -25,18 +25,15 @@ import org.ksoap2.transport.HttpTransportSE;
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
-import java.util.function.Predicate;
-import java.util.stream.Collectors;
 
-import static com.supergianlu.controlli.util.Helper.EXTRA_IDMODULO;
-import static com.supergianlu.controlli.util.Helper.EXTRA_SEARCH;
-import static com.supergianlu.controlli.util.Helper.METHOD_GETRICERCA;
-import static com.supergianlu.controlli.util.Helper.NAMESPACE;
-import static com.supergianlu.controlli.util.Helper.PREFS_MANIFESTATION_VALUE;
-import static com.supergianlu.controlli.util.Helper.PREFS_NAME;
-import static com.supergianlu.controlli.util.Helper.SOAP_ACTION_GETRICERCA;
-import static com.supergianlu.controlli.util.Helper.URL;
+import static com.vivaticket.controlli.util.Helper.EXTRA_IDMODULO;
+import static com.vivaticket.controlli.util.Helper.EXTRA_SEARCH;
+import static com.vivaticket.controlli.util.Helper.METHOD_GETRICERCA;
+import static com.vivaticket.controlli.util.Helper.NAMESPACE;
+import static com.vivaticket.controlli.util.Helper.PREFS_MANIFESTATION_VALUE;
+import static com.vivaticket.controlli.util.Helper.PREFS_NAME;
+import static com.vivaticket.controlli.util.Helper.SOAP_ACTION_GETRICERCA;
+import static com.vivaticket.controlli.util.Helper.URL;
 
 public class SearchListActivity extends AppCompatActivity {
 

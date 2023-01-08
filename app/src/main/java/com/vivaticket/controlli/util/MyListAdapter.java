@@ -1,21 +1,17 @@
-package com.supergianlu.controlli.util;
+package com.vivaticket.controlli.util;
 
 import android.app.Activity;
 
 import android.content.Context;
-import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.TextView;
 
-import com.supergianlu.controlli.R;
+import com.vivaticket.controlli.R;
 
 import java.util.List;
-
-import static com.supergianlu.controlli.util.Helper.STATUS_COMPLETE;
-import static com.supergianlu.controlli.util.Helper.STATUS_INCOMPLETE;
 
 public class MyListAdapter extends ArrayAdapter<SearchElement> {
 

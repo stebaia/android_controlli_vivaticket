@@ -1,4 +1,4 @@
-package com.supergianlu.controlli.activity;
+package com.vivaticket.controlli.activity;
 
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -12,8 +12,8 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.supergianlu.controlli.R;
-import com.supergianlu.controlli.util.Helper;
+import com.vivaticket.controlli.R;
+import com.vivaticket.controlli.util.Helper;
 
 import org.ksoap2.SoapEnvelope;
 import org.ksoap2.serialization.SoapObject;
@@ -22,15 +22,15 @@ import org.ksoap2.transport.HttpTransportSE;
 
 import java.lang.ref.WeakReference;
 
-import static com.supergianlu.controlli.util.Helper.METHOD_LOGINUTENTE;
-import static com.supergianlu.controlli.util.Helper.NAMESPACE;
-import static com.supergianlu.controlli.util.Helper.PREFS_USER_EMAIL;
-import static com.supergianlu.controlli.util.Helper.PREFS_NAME;
-import static com.supergianlu.controlli.util.Helper.PREFS_USER_ID;
-import static com.supergianlu.controlli.util.Helper.PREFS_USER_LOGGED;
-import static com.supergianlu.controlli.util.Helper.PREFS_USER_ROLE;
-import static com.supergianlu.controlli.util.Helper.SOAP_ACTION_LOGINUTENTE;
-import static com.supergianlu.controlli.util.Helper.URL;
+import static com.vivaticket.controlli.util.Helper.METHOD_LOGINUTENTE;
+import static com.vivaticket.controlli.util.Helper.NAMESPACE;
+import static com.vivaticket.controlli.util.Helper.PREFS_USER_EMAIL;
+import static com.vivaticket.controlli.util.Helper.PREFS_NAME;
+import static com.vivaticket.controlli.util.Helper.PREFS_USER_ID;
+import static com.vivaticket.controlli.util.Helper.PREFS_USER_LOGGED;
+import static com.vivaticket.controlli.util.Helper.PREFS_USER_ROLE;
+import static com.vivaticket.controlli.util.Helper.SOAP_ACTION_LOGINUTENTE;
+import static com.vivaticket.controlli.util.Helper.URL;
 
 public class LoginActivity extends AppCompatActivity {
 

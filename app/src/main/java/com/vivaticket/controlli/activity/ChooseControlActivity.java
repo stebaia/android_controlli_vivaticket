@@ -1,4 +1,4 @@
-package com.supergianlu.controlli.activity;
+package com.vivaticket.controlli.activity;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -6,12 +6,12 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.Button;
 
-import com.supergianlu.controlli.R;
-import com.supergianlu.controlli.activity.segnalazioni.SignalationsActivity;
+import com.vivaticket.controlli.R;
+import com.vivaticket.controlli.activity.segnalazioni.SignalationsActivity;
 
-import static com.supergianlu.controlli.util.Helper.CHOOSE_CONTROL_CODE;
-import static com.supergianlu.controlli.util.Helper.PREFS_CONTROL_CODE;
-import static com.supergianlu.controlli.util.Helper.PREFS_NAME;
+import static com.vivaticket.controlli.util.Helper.CHOOSE_CONTROL_CODE;
+import static com.vivaticket.controlli.util.Helper.PREFS_CONTROL_CODE;
+import static com.vivaticket.controlli.util.Helper.PREFS_NAME;
 public class ChooseControlActivity extends AppCompatActivity {
 
     private SharedPreferences sharedPreferences;

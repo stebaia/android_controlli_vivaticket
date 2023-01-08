@@ -1,4 +1,4 @@
-package com.supergianlu.controlli;
+package com.vivaticket.controlli;
 
 import com.google.gson.annotations.SerializedName;
 

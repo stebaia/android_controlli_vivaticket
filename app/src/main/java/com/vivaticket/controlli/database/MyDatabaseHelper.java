@@ -1,4 +1,4 @@
-package com.supergianlu.controlli.database;
+package com.vivaticket.controlli.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -6,26 +6,22 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-import com.supergianlu.controlli.R;
+import com.vivaticket.controlli.R;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.List;
-import java.util.Locale;
 
-import static com.supergianlu.controlli.util.Helper.COLUMN_KEY_ID;
-import static com.supergianlu.controlli.util.Helper.COLUMN_PROVINCE_CODE;
-import static com.supergianlu.controlli.util.Helper.COLUMN_PROVINCE_NAME;
-import static com.supergianlu.controlli.util.Helper.COLUMN_STATE_CODE;
-import static com.supergianlu.controlli.util.Helper.COLUMN_STATE_NAME;
-import static com.supergianlu.controlli.util.Helper.TABLE_PROVINCE;
-import static com.supergianlu.controlli.util.Helper.TABLE_STATE;
+import static com.vivaticket.controlli.util.Helper.COLUMN_KEY_ID;
+import static com.vivaticket.controlli.util.Helper.COLUMN_PROVINCE_CODE;
+import static com.vivaticket.controlli.util.Helper.COLUMN_PROVINCE_NAME;
+import static com.vivaticket.controlli.util.Helper.COLUMN_STATE_CODE;
+import static com.vivaticket.controlli.util.Helper.COLUMN_STATE_NAME;
+import static com.vivaticket.controlli.util.Helper.TABLE_PROVINCE;
+import static com.vivaticket.controlli.util.Helper.TABLE_STATE;
 
 public class MyDatabaseHelper extends SQLiteOpenHelper {
 

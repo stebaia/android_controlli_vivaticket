@@ -1,4 +1,4 @@
-package com.supergianlu.controlli.util;
+package com.vivaticket.controlli.util;
 
 import android.Manifest;
 import android.app.Activity;

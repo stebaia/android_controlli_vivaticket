@@ -1,4 +1,4 @@
-package com.supergianlu.controlli.activity.servizi;
+package com.vivaticket.controlli.activity.servizi;
 
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -24,13 +24,13 @@ import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.supergianlu.controlli.Modulo;
-import com.supergianlu.controlli.R;
-import com.supergianlu.controlli.activity.ChooseServiceActivity;
-import com.supergianlu.controlli.activity.LoginActivity;
-import com.supergianlu.controlli.database.MyDatabaseHelper;
-import com.supergianlu.controlli.database.Province;
-import com.supergianlu.controlli.database.State;
+import com.vivaticket.controlli.Modulo;
+import com.vivaticket.controlli.R;
+import com.vivaticket.controlli.activity.ChooseServiceActivity;
+import com.vivaticket.controlli.activity.LoginActivity;
+import com.vivaticket.controlli.database.MyDatabaseHelper;
+import com.vivaticket.controlli.database.Province;
+import com.vivaticket.controlli.database.State;
 
 import org.ksoap2.SoapEnvelope;
 import org.ksoap2.serialization.MarshalBase64;
@@ -45,27 +45,27 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 
-import static com.supergianlu.controlli.util.Helper.EXTRA_IDMODULO;
-import static com.supergianlu.controlli.util.Helper.EXTRA_SEARCH;
-import static com.supergianlu.controlli.util.Helper.EXTRA_SIGNATURE;
-import static com.supergianlu.controlli.util.Helper.METHOD_GETCOMUNI;
-import static com.supergianlu.controlli.util.Helper.METHOD_GETMODULO;
-import static com.supergianlu.controlli.util.Helper.METHOD_SETMODULO;
-import static com.supergianlu.controlli.util.Helper.NAMESPACE;
-import static com.supergianlu.controlli.util.Helper.PREFS_CONTROL_CODE;
-import static com.supergianlu.controlli.util.Helper.PREFS_IS_ITA;
-import static com.supergianlu.controlli.util.Helper.PREFS_MANIFESTATION_NAME;
-import static com.supergianlu.controlli.util.Helper.PREFS_MANIFESTATION_VALUE;
-import static com.supergianlu.controlli.util.Helper.PREFS_NAME;
-import static com.supergianlu.controlli.util.Helper.PREFS_USER_EMAIL;
-import static com.supergianlu.controlli.util.Helper.PREFS_USER_ID;
-import static com.supergianlu.controlli.util.Helper.PREFS_USER_LOGGED;
-import static com.supergianlu.controlli.util.Helper.PREFS_USER_ROLE;
-import static com.supergianlu.controlli.util.Helper.SERVICES_CODE;
-import static com.supergianlu.controlli.util.Helper.SOAP_ACTION_GETCOMUNI;
-import static com.supergianlu.controlli.util.Helper.SOAP_ACTION_GETMODULO;
-import static com.supergianlu.controlli.util.Helper.SOAP_ACTION_SETMODULO;
-import static com.supergianlu.controlli.util.Helper.URL;
+import static com.vivaticket.controlli.util.Helper.EXTRA_IDMODULO;
+import static com.vivaticket.controlli.util.Helper.EXTRA_SEARCH;
+import static com.vivaticket.controlli.util.Helper.EXTRA_SIGNATURE;
+import static com.vivaticket.controlli.util.Helper.METHOD_GETCOMUNI;
+import static com.vivaticket.controlli.util.Helper.METHOD_GETMODULO;
+import static com.vivaticket.controlli.util.Helper.METHOD_SETMODULO;
+import static com.vivaticket.controlli.util.Helper.NAMESPACE;
+import static com.vivaticket.controlli.util.Helper.PREFS_CONTROL_CODE;
+import static com.vivaticket.controlli.util.Helper.PREFS_IS_ITA;
+import static com.vivaticket.controlli.util.Helper.PREFS_MANIFESTATION_NAME;
+import static com.vivaticket.controlli.util.Helper.PREFS_MANIFESTATION_VALUE;
+import static com.vivaticket.controlli.util.Helper.PREFS_NAME;
+import static com.vivaticket.controlli.util.Helper.PREFS_USER_EMAIL;
+import static com.vivaticket.controlli.util.Helper.PREFS_USER_ID;
+import static com.vivaticket.controlli.util.Helper.PREFS_USER_LOGGED;
+import static com.vivaticket.controlli.util.Helper.PREFS_USER_ROLE;
+import static com.vivaticket.controlli.util.Helper.SERVICES_CODE;
+import static com.vivaticket.controlli.util.Helper.SOAP_ACTION_GETCOMUNI;
+import static com.vivaticket.controlli.util.Helper.SOAP_ACTION_GETMODULO;
+import static com.vivaticket.controlli.util.Helper.SOAP_ACTION_SETMODULO;
+import static com.vivaticket.controlli.util.Helper.URL;
 
 public abstract class ServicesActivity extends AppCompatActivity {
 

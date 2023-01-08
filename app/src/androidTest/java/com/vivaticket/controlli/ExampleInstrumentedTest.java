@@ -1,4 +1,4 @@
-package com.supergianlu.controlli;
+package com.vivaticket.controlli;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,4 +1,4 @@
-package com.supergianlu.controlli.activity.servizi;
+package com.vivaticket.controlli.activity.servizi;
 
 import android.app.AlertDialog;
 import android.content.Intent;
@@ -9,11 +9,11 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import com.kyanogen.signatureview.SignatureView;
-import com.supergianlu.controlli.R;
+import com.vivaticket.controlli.R;
 
 import java.io.ByteArrayOutputStream;
 
-import static com.supergianlu.controlli.util.Helper.EXTRA_SIGNATURE;
+import static com.vivaticket.controlli.util.Helper.EXTRA_SIGNATURE;
 
 public class SignatureActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.supergianlu.controlli.activity.segnalazioni;
+package com.vivaticket.controlli.activity.segnalazioni;
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -22,9 +22,9 @@ import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.Toast;
 
-import com.supergianlu.controlli.R;
-import com.supergianlu.controlli.activity.LoginActivity;
-import com.supergianlu.controlli.util.Helper;
+import com.vivaticket.controlli.R;
+import com.vivaticket.controlli.activity.LoginActivity;
+import com.vivaticket.controlli.util.Helper;
 
 import org.ksoap2.SoapEnvelope;
 import org.ksoap2.serialization.MarshalBase64;
@@ -40,22 +40,22 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static android.os.Environment.getExternalStorageDirectory;
-import static com.supergianlu.controlli.util.Helper.METHOD_GETGRUPPI;
-import static com.supergianlu.controlli.util.Helper.METHOD_SETSEGNALAZIONI;
-import static com.supergianlu.controlli.util.Helper.NAMESPACE;
-import static com.supergianlu.controlli.util.Helper.PREFS_CONTROL_CODE;
-import static com.supergianlu.controlli.util.Helper.PREFS_IS_ITA;
-import static com.supergianlu.controlli.util.Helper.PREFS_MANIFESTATION_NAME;
-import static com.supergianlu.controlli.util.Helper.PREFS_MANIFESTATION_VALUE;
-import static com.supergianlu.controlli.util.Helper.PREFS_USER_EMAIL;
-import static com.supergianlu.controlli.util.Helper.PREFS_NAME;
-import static com.supergianlu.controlli.util.Helper.PREFS_USER_ID;
-import static com.supergianlu.controlli.util.Helper.PREFS_USER_LOGGED;
-import static com.supergianlu.controlli.util.Helper.PREFS_USER_ROLE;
-import static com.supergianlu.controlli.util.Helper.SIGNALATIONS_CODE;
-import static com.supergianlu.controlli.util.Helper.SOAP_ACTION_GETGRUPPI;
-import static com.supergianlu.controlli.util.Helper.SOAP_ACTION_SETSEGNALAZIONI;
-import static com.supergianlu.controlli.util.Helper.URL;
+import static com.vivaticket.controlli.util.Helper.METHOD_GETGRUPPI;
+import static com.vivaticket.controlli.util.Helper.METHOD_SETSEGNALAZIONI;
+import static com.vivaticket.controlli.util.Helper.NAMESPACE;
+import static com.vivaticket.controlli.util.Helper.PREFS_CONTROL_CODE;
+import static com.vivaticket.controlli.util.Helper.PREFS_IS_ITA;
+import static com.vivaticket.controlli.util.Helper.PREFS_MANIFESTATION_NAME;
+import static com.vivaticket.controlli.util.Helper.PREFS_MANIFESTATION_VALUE;
+import static com.vivaticket.controlli.util.Helper.PREFS_USER_EMAIL;
+import static com.vivaticket.controlli.util.Helper.PREFS_NAME;
+import static com.vivaticket.controlli.util.Helper.PREFS_USER_ID;
+import static com.vivaticket.controlli.util.Helper.PREFS_USER_LOGGED;
+import static com.vivaticket.controlli.util.Helper.PREFS_USER_ROLE;
+import static com.vivaticket.controlli.util.Helper.SIGNALATIONS_CODE;
+import static com.vivaticket.controlli.util.Helper.SOAP_ACTION_GETGRUPPI;
+import static com.vivaticket.controlli.util.Helper.SOAP_ACTION_SETSEGNALAZIONI;
+import static com.vivaticket.controlli.util.Helper.URL;
 
 public class SignalationsActivity extends AppCompatActivity {
 

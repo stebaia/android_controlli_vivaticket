@@ -1,25 +1,25 @@
-package com.supergianlu.controlli.activity;
+package com.vivaticket.controlli.activity;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.supergianlu.controlli.activity.servizi.moduli.ModKActivity;
-import com.supergianlu.controlli.activity.servizi.moduli.ModLActivity;
-import com.supergianlu.controlli.activity.servizi.moduli.ModN2Activity;
-import com.supergianlu.controlli.activity.segnalazioni.SignalationsActivity;
+import com.vivaticket.controlli.activity.servizi.moduli.ModKActivity;
+import com.vivaticket.controlli.activity.servizi.moduli.ModLActivity;
+import com.vivaticket.controlli.activity.servizi.moduli.ModN2Activity;
+import com.vivaticket.controlli.activity.segnalazioni.SignalationsActivity;
 
-import static com.supergianlu.controlli.util.Helper.CHOOSE_CONTROL_CODE;
-import static com.supergianlu.controlli.util.Helper.K_CODE;
-import static com.supergianlu.controlli.util.Helper.L_GENERICO_CODE;
-import static com.supergianlu.controlli.util.Helper.L_ULTIMOGIORNO_CODE;
-import static com.supergianlu.controlli.util.Helper.N2_CODE;
-import static com.supergianlu.controlli.util.Helper.PREFS_CONTROL_CODE;
-import static com.supergianlu.controlli.util.Helper.PREFS_NAME;
-import static com.supergianlu.controlli.util.Helper.PREFS_USER_LOGGED;
-import static com.supergianlu.controlli.util.Helper.SERVICES_CODE;
-import static com.supergianlu.controlli.util.Helper.SIGNALATIONS_CODE;
+import static com.vivaticket.controlli.util.Helper.CHOOSE_CONTROL_CODE;
+import static com.vivaticket.controlli.util.Helper.K_CODE;
+import static com.vivaticket.controlli.util.Helper.L_GENERICO_CODE;
+import static com.vivaticket.controlli.util.Helper.L_ULTIMOGIORNO_CODE;
+import static com.vivaticket.controlli.util.Helper.N2_CODE;
+import static com.vivaticket.controlli.util.Helper.PREFS_CONTROL_CODE;
+import static com.vivaticket.controlli.util.Helper.PREFS_NAME;
+import static com.vivaticket.controlli.util.Helper.PREFS_USER_LOGGED;
+import static com.vivaticket.controlli.util.Helper.SERVICES_CODE;
+import static com.vivaticket.controlli.util.Helper.SIGNALATIONS_CODE;
 
 public class LoadingActivity extends AppCompatActivity {
 
